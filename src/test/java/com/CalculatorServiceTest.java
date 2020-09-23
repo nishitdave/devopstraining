@@ -16,7 +16,7 @@ public class CalculatorServiceTest {
 	public void testSum() {
 		int a=10,b=10;
 		CalculatorService ms = new CalculatorService();
-		Assertions.assertEquals(ms.sum(), 20);
+		Assertions.assertEquals(ms.sum(a,b), 20);
 	}
 	
 	@Test
